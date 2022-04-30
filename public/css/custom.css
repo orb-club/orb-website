@@ -1,0 +1,11 @@
+.dropdown.share li.mailnw {
+    width: 100%;
+    height: auto;
+    color: #202020;
+    opacity: 0.6;
+    font-size: 15px;
+    padding: 20px 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
