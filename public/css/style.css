@@ -11149,11 +11149,11 @@ h5,
   font-size: 104px;
   color: #fff;
   line-height: 1.2;
-  font-weight: 900;
+  /* font-weight: 900; */
   padding-top: 100px;
 }
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
-  font-weight: 900;
+  /* font-weight: 900; */
   color: #8157fc;
 }
 @media (max-width: 991.98px) {
@@ -12010,7 +12010,7 @@ textarea.form-control {
   font-size: 7vw;
   color: rgba(255, 255, 255, 0.1);
   z-index: -1;
-  font-weight: 900;
+  /* font-weight: 900; */
 }
 .heading-section h1.big.big-2 {
   right: 0;
@@ -12534,7 +12534,7 @@ textarea.form-control {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
   border-radius: 16px;
