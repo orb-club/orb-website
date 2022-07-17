@@ -11826,8 +11826,8 @@ textarea.form-control {
 }
 
 .ftco-animate {
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
 }
 
 .bg-primary {
@@ -12533,7 +12533,7 @@ textarea.form-control {
   font-style: italic;
 }
 
-#ftco-loader {
+/* #ftco-loader {
   position: fixed;
   width: 96px;
   height: 96px;
@@ -12595,7 +12595,7 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
-}
+} */
 
 @-webkit-keyframes loader-rotate {
   100% {
