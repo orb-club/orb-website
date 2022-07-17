@@ -1144,10 +1144,17 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
-  /* .row {
+@media only screen and (max-width: 768px) {
+  .img-row {
     flex-direction: column-reverse;
-  } */
+  }
+  .big{
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -3422,6 +3429,7 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 768px) {
+  
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
