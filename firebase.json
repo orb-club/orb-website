@@ -2,10 +2,12 @@
   "hosting": {
     "site": "orb-club",
     "public": "public",
+    "appAssociation": "AUTO",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "rewrites": [ { "source": "/link/**", "dynamicLinks": true } ]
   }
 }
