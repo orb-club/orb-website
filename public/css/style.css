@@ -1160,6 +1160,13 @@ pre code {
   .get-date-mobile {
     display: block !important;
   }
+  .orb-bottom {
+    display: none !important;
+  }
+}
+
+.orb-bottom {
+  display: block;
 }
 
 .get-date-mobile {
@@ -10659,7 +10666,7 @@ a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #000000;
+  background: #121212;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -10714,7 +10721,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #121212 !important;
     position: relative;
     top: 0;
     padding-top: 0;
@@ -10724,7 +10731,6 @@ h5,
   }
 }
 .ftco-navbar-light .container {
-  width: 1110px;
   margin: 0 auto;
   padding: 0;
 }
@@ -10868,7 +10874,7 @@ h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #000000 !important;
+  background: #121212 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding: 0 15px;
@@ -10926,7 +10932,7 @@ h5,
   letter-spacing: 0.1em;
 }
 .ftco-navbar-light.scrolled .nav-link {
-  color: #000000 !important;
+  color: #121212 !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active {
   color: #8157fc !important;
@@ -11417,7 +11423,7 @@ h5,
 .btn.btn-primary {
   background: #8157fc;
   border: 1px solid #8157fc !important;
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 .btn.btn-primary:hover {
   border: 1px solid #8157fc !important;
@@ -11879,8 +11885,8 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #000000;
-  padding: 7em 0;
+  background: #121212;
+  padding: 7em 1.5rem;
   z-index: 0;
 }
 .ftco-footer .ftco-footer-logo {
@@ -12034,12 +12040,45 @@ textarea.form-control {
 .heading-section h1.big.big-2 {
   right: 0;
 }
+.heading-section h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+}
+@media (min-width: 576px) {
+  .heading-section h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .heading-section h1 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 992px) {
+  .heading-section h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .heading-section h1 {
+    font-size: 72px;
+  }
+}
+.heading-section h1 span {
+  font-weight: 700;
+  color: #8157fc;
+}
+
 .heading-section h2 {
   font-size: 50px;
   font-weight: 700;
+  line-height: 120%;
 }
 .heading-section h2 span {
-  font-weight: 400;
+  font-weight: 700;
+  color: #8157fc;
 }
 @media (max-width: 767.98px) {
   .heading-section h2 {
@@ -12672,4 +12711,69 @@ textarea.form-control {
     width: 100%;
     text-align: center;
   }
+}
+
+.column-main-left {
+  width: 56%;
+}
+
+.column-main-middle {
+  width: 4%;
+}
+
+.column-main-right {
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .column-main-left {
+    width: 80%;
+  }
+  .column-main-middle {
+    width: 0%;
+  }
+  .column-main-right {
+    width: 80%;
+  }
+}
+
+.img-app-download {
+  height: 56px;
+}
+
+@media screen and (max-width: 600px) {
+  .img-app-download {
+    height: 40px;
+  }
+}
+
+.btn-outline-primary {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  background: transparent !important;
+  color: #8157fc !important;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.orb-bottom {
+}
+
+.twitter-tweet {
+  width: 100%;
+  padding: 20px;
 }
